@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Daniel Moreno Ruiz - Portafolio</title>
+    <meta name="description" content="Portafolio personal de Daniel Moreno Ruiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b5304e6226.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <header id="cabecera">
+        <div class="header-content">
+            <h1>Daniel Moreno Ruiz</h1>
+            <h2 class="subtitle">Desarrollador y entusiasta de la tecnología</h2>
+            <img class="profile-pic" src="./img/foto.png" alt="Daniel Moreno Ruiz">
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre-mi" class="section about">
+            <div>
+                <h2>Sobre mí</h2>
+                <p>Soy un informático de grado superior con una pasión incansable por la tecnología. Mi curiosidad y dedicación me han permitido adquirir habilidades sólidas en el desarrollo de software, programación orientada a objetos (Java) y administración de sistemas. Estoy constantemente actualizando mis conocimientos y buscando nuevas oportunidades para crecer profesionalmente en este apasionante campo.</p>
+            </div>
+        </section>
+
+        <section class="skills-container">
+            <article id="hard-skills" class="skills-block">
+                <div class="skills-header">
+                    <img src="./img/hard_skills.jpg" alt="Hard Skills" class="skill-icon">
+                    <h2>Hard Skills</h2>
+                </div>
+                <ul>
+                    <li class="skill-category">Frontend</li>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <li class="skill-category">Backend</li>
+                    <ul>
+                        <li>Java</li>
+                        <li>Kotlin</li>
+                    </ul>
+                </ul>
+            </article>
+
+            <article id="soft-skills" class="skills-block">
+                <div class="skills-header">
+                    <img src="./img/soft_skills.jpg.png" alt="Soft Skills" class="skill-icon">
+                    <h2>Soft Skills</h2>
+                </div>
+                <ul>
+                    <li>Comunicación</li>
+                    <li>Puntualidad</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Responsabilidad</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="form-container">
+            <article class="complementary-skills-block">
+                <h2>Formación Complementaria</h2>
+                <ul>
+                    <li>
+                        I.E.S. Politécnico Hermenegildo Lanz | 09/2021 - 06/2023 <br />
+                        Formación Profesional Sistemas Microinformáticos y Redes.
+                    </li>
+                    <li>
+                        Cisco NetAcad | 09/2021 - 07/2022 <br />
+                        IT Essentials: PC Hardware and Software.
+                    </li>
+                    <li>
+                        Cisco NetAcad | 09/2021 - 05/2022 <br />
+                        Partner: NDG Linux Essentials
+                    </li>
+                    <li>
+                        Cisco NetAcad | 09/2021 - 11/2022 <br />
+                        Networking Essentials
+                    </li>
+                    <li>
+                        Cisco NetAcad | 09/2021 - 02/2023 <br />
+                        Introduction to IoT
+                    </li>
+                    <li>
+                        OpenWebinars <br />
+                        Curso de fundamentos de Redes: TCP/IP
+                    </li>
+                    <li>
+                        OpenWebinars <br />
+                        Curso de Python 3 desde cero
+                    </li>
+                    <li>
+                        I.E.S. Politécnico Hermenegildo Lanz | 09 - 2023 / en curso <br />
+                        Técnico Superior en Desarrollo de Aplicaciones Multiplataformas
+                    </li>
+                </ul>
+            </article>
+
+            <article class="contact-form">
+                <h2>Envíame un mensaje</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidos">Apellidos</label>
+                        <input id="apellidos" type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="direccion">Dirección</label>
+                        <input id="direccion" type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="area">Comentario</label>
+                        <textarea id="area" cols="30" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+        </section>
+
+        <section id="contacto" class="section contact">
+            <h2>Contacto</h2>
+            <div class="contact-grid">
+                <article class="social-links">
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Daniel Moreno Ruiz. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
